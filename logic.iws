@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1beb4a76-90e5-45aa-8d9e-0fcde9da28be" name="Default Changelist" comment="" />
+    <list default="true" id="1beb4a76-90e5-45aa-8d9e-0fcde9da28be" name="Default Changelist" comment="init">
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/models/user/UpdateUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/models/user/UpdateUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logic.iws" beforeDir="false" afterPath="$PROJECT_DIR$/logic.iws" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -195,8 +198,16 @@
       <option name="presentableId" value="Default" />
       <updated>1610129271273</updated>
       <workItem from="1610129272529" duration="1019000" />
-      <workItem from="1610130558394" duration="6467000" />
+      <workItem from="1610130558394" duration="6753000" />
     </task>
+    <task id="LOCAL-00001" summary="init">
+      <created>1610137216694</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1610137216694</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,6 +215,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <MESSAGE value="init" />
+    <option name="LAST_COMMIT_MESSAGE" value="init" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -243,10 +256,10 @@
       <screen x="0" y="0" width="2560" height="1409" />
     </state>
     <state x="567" y="237" key="SettingsEditor/3840.1080.1920.1034/0.0.2560.1409@0.0.2560.1409" timestamp="1610133321618" />
-    <state x="873" y="438" key="Vcs.Push.Dialog.v2" timestamp="1610137181522">
+    <state x="873" y="438" key="Vcs.Push.Dialog.v2" timestamp="1610137247079">
       <screen x="0" y="0" width="2560" height="1409" />
     </state>
-    <state x="873" y="438" key="Vcs.Push.Dialog.v2/3840.1080.1920.1034/0.0.2560.1409@0.0.2560.1409" timestamp="1610137181522" />
+    <state x="873" y="438" key="Vcs.Push.Dialog.v2/3840.1080.1920.1034/0.0.2560.1409@0.0.2560.1409" timestamp="1610137247079" />
     <state x="937" y="333" key="run.anything.popup" timestamp="1610130146768">
       <screen x="0" y="0" width="2560" height="1409" />
     </state>
