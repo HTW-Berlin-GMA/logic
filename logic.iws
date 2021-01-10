@@ -1,8 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="1beb4a76-90e5-45aa-8d9e-0fcde9da28be" name="Default Changelist" comment="init">
+    <list default="true" id="1beb4a76-90e5-45aa-8d9e-0fcde9da28be" name="Default Changelist" comment="updated UserUpdate | more options">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/cli/Input.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/cli/View.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/exceptions/ActionNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/exceptions/NotImplementsException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/exceptions/StorableNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/mode/Options.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/models/actions/LogicActionsNeighbourhood.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/models/actions/UpdateAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/test/java/LogicTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/test/java/models/LogicModelsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/BusinessLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/BusinessLogic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/exceptions/UsernameNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/exceptions/UsernameNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/mode/UpdateTypeUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/mode/UpdateType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/models/LogicActionsFreedom.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/models/actions/LogicActionsFreedom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/models/LogicActionsNeighbourhood.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/cli/CLIText.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/models/LogicModels.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/models/LogicModels.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/models/LogicUsers.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/models/user/LogicUsers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/models/user/UpdateUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/models/user/UpdateUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/logic/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logic.iml" beforeDir="false" afterPath="$PROJECT_DIR$/logic.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logic.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/logic.ipr" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logic.iws" beforeDir="false" afterPath="$PROJECT_DIR$/logic.iws" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,6 +100,7 @@
         <option value="Interface" />
         <option value="Enum" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -87,27 +129,42 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.sorted" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../models/out/artifacts/models_jar/models.jar!/" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.14160156" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
+    <property name="settings.editor.selected.configurable" value="settings.saveactions" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="models" />
+      <recent name="" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="exceptions" />
+      <recent name="mode" />
       <recent name="logic.events.input.commands" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -115,7 +172,7 @@
       <recent name="E:\Workspace\intellij-workspace\#GMA\GuysMeetsActions\logic\app\src\main\java\logic\events\input" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.LogicTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <module name="" />
       <option name="MAIN_CLASS_NAME" />
@@ -136,6 +193,15 @@
       <Host>localhost</Host>
       <Port>5050</Port>
     </configuration>
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="App" />
+      <module name="app" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -143,15 +209,42 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
+    <configuration name="LogicModelsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="models.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="models" />
+      <option name="MAIN_CLASS_NAME" value="models.LogicModelsTest" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
       <method v="2">
+        <option name="BuildArtifacts" enabled="false" />
         <option name="Make" enabled="true" />
+        <option name="BSP.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LogicTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="app" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LogicTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <method v="2">
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="BSP.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -164,6 +257,7 @@
       <method v="2">
         <option name="BuildArtifacts" enabled="false" />
         <option name="Make" enabled="true" />
+        <option name="BSP.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration default="true" type="Remote">
@@ -177,16 +271,15 @@
         <option name="BuildArtifacts" enabled="false" />
       </method>
     </configuration>
-    <configuration default="true" type="aws.lambda" factoryName="Remote">
-      <option name="credentialProviderId" />
-      <option name="regionId" />
-      <option name="functionName" />
-      <option name="input" />
-      <option name="inputIsFile" value="false" />
-      <method v="2" />
-    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.LogicTest" />
+        <item itemvalue="Application.App" />
+        <item itemvalue="JUnit.LogicModelsTest" />
+      </list>
+    </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -198,7 +291,17 @@
       <option name="presentableId" value="Default" />
       <updated>1610129271273</updated>
       <workItem from="1610129272529" duration="1019000" />
-      <workItem from="1610130558394" duration="6753000" />
+      <workItem from="1610130558394" duration="7369000" />
+      <workItem from="1610282691525" duration="1792000" />
+      <workItem from="1610284507025" duration="1000000" />
+      <workItem from="1610292234125" duration="332000" />
+      <workItem from="1610292606695" duration="481000" />
+      <workItem from="1610294728862" duration="695000" />
+      <workItem from="1610295731853" duration="381000" />
+      <workItem from="1610296209673" duration="318000" />
+      <workItem from="1610300967455" duration="6070000" />
+      <workItem from="1610309472763" duration="639000" />
+      <workItem from="1610310144264" duration="3210000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1610137216694</created>
@@ -207,23 +310,44 @@
       <option name="project" value="LOCAL" />
       <updated>1610137216694</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="updated UserUpdate | more options">
+      <created>1610137496425</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1610137496425</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="updated UserUpdate | more options" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated UserUpdate | more options" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="946" y="394" key="#com.intellij.ide.util.MemberChooser" timestamp="1610136590101">
+    <state x="946" y="394" key="#com.intellij.ide.util.MemberChooser" timestamp="1610305354799">
       <screen x="0" y="0" width="2560" height="1409" />
     </state>
-    <state x="946" y="394" key="#com.intellij.ide.util.MemberChooser/3840.1080.1920.1034/0.0.2560.1409@0.0.2560.1409" timestamp="1610136590101" />
+    <state x="946" y="394" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1409@0.0.2560.1409" timestamp="1610305354799" />
+    <state x="946" y="394" key="#com.intellij.ide.util.MemberChooser/3840.1080.1920.1034/0.0.2560.1409@0.0.2560.1409" timestamp="1610282975887" />
     <state x="824" y="629" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1610136049717">
       <screen x="0" y="0" width="2560" height="1409" />
     </state>
@@ -236,6 +360,10 @@
       <screen x="0" y="0" width="2560" height="1409" />
     </state>
     <state x="1059" y="586" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/3840.1080.1920.1034/0.0.2560.1409@0.0.2560.1409" timestamp="1610136051319" />
+    <state x="1057" y="542" key="#com.intellij.refactoring.move.moveInstanceMethod.MoveInstanceMethodDialog" timestamp="1610306239843">
+      <screen x="0" y="0" width="2560" height="1409" />
+    </state>
+    <state x="1057" y="542" key="#com.intellij.refactoring.move.moveInstanceMethod.MoveInstanceMethodDialog/0.0.2560.1409@0.0.2560.1409" timestamp="1610306239843" />
     <state x="994" y="512" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1610131175824">
       <screen x="0" y="0" width="2560" height="1409" />
     </state>
@@ -244,25 +372,148 @@
       <screen x="0" y="0" width="2560" height="1409" />
     </state>
     <state x="1011" y="452" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/3840.1080.1920.1034/0.0.2560.1409@0.0.2560.1409" timestamp="1610131114138" />
-    <state x="917" y="560" key="DetectedRootsChooserDialog" timestamp="1610129510748">
+    <state x="917" y="560" key="DetectedRootsChooserDialog" timestamp="1610294783052">
       <screen x="0" y="0" width="2560" height="1409" />
     </state>
-    <state x="917" y="560" key="DetectedRootsChooserDialog/3840.1080.1920.1034/0.0.2560.1409@0.0.2560.1409" timestamp="1610129510748" />
-    <state x="921" y="433" key="FileChooserDialogImpl" timestamp="1610137174667">
+    <state x="917" y="560" key="DetectedRootsChooserDialog/0.0.2560.1409@0.0.2560.1409" timestamp="1610294783052" />
+    <state x="917" y="560" key="DetectedRootsChooserDialog/3840.1080.1920.1034/0.0.2560.1409@0.0.2560.1409" timestamp="1610284759151" />
+    <state x="921" y="433" key="FileChooserDialogImpl" timestamp="1610309491354">
       <screen x="0" y="0" width="2560" height="1409" />
     </state>
-    <state x="921" y="433" key="FileChooserDialogImpl/3840.1080.1920.1034/0.0.2560.1409@0.0.2560.1409" timestamp="1610137174667" />
-    <state x="567" y="237" key="SettingsEditor" timestamp="1610133321618">
+    <state x="921" y="433" key="FileChooserDialogImpl/0.0.2560.1409@0.0.2560.1409" timestamp="1610309491354" />
+    <state x="921" y="433" key="FileChooserDialogImpl/3840.1080.1920.1034/0.0.2560.1409@0.0.2560.1409" timestamp="1610284755489" />
+    <state width="2517" height="404" key="GridCell.Tab.0.bottom" timestamp="1610312737082">
       <screen x="0" y="0" width="2560" height="1409" />
     </state>
-    <state x="567" y="237" key="SettingsEditor/3840.1080.1920.1034/0.0.2560.1409@0.0.2560.1409" timestamp="1610133321618" />
-    <state x="873" y="438" key="Vcs.Push.Dialog.v2" timestamp="1610137247079">
+    <state width="2517" height="404" key="GridCell.Tab.0.bottom/0.0.2560.1409@0.0.2560.1409" timestamp="1610312737082" />
+    <state width="2517" height="404" key="GridCell.Tab.0.center" timestamp="1610312737082">
       <screen x="0" y="0" width="2560" height="1409" />
     </state>
-    <state x="873" y="438" key="Vcs.Push.Dialog.v2/3840.1080.1920.1034/0.0.2560.1409@0.0.2560.1409" timestamp="1610137247079" />
-    <state x="937" y="333" key="run.anything.popup" timestamp="1610130146768">
+    <state width="2517" height="404" key="GridCell.Tab.0.center/0.0.2560.1409@0.0.2560.1409" timestamp="1610312737082" />
+    <state width="2517" height="404" key="GridCell.Tab.0.left" timestamp="1610312737082">
       <screen x="0" y="0" width="2560" height="1409" />
     </state>
+    <state width="2517" height="404" key="GridCell.Tab.0.left/0.0.2560.1409@0.0.2560.1409" timestamp="1610312737082" />
+    <state width="2517" height="404" key="GridCell.Tab.0.right" timestamp="1610312737082">
+      <screen x="0" y="0" width="2560" height="1409" />
+    </state>
+    <state width="2517" height="404" key="GridCell.Tab.0.right/0.0.2560.1409@0.0.2560.1409" timestamp="1610312737082" />
+    <state width="2517" height="496" key="GridCell.Tab.1.bottom" timestamp="1610312607464">
+      <screen x="0" y="0" width="2560" height="1409" />
+    </state>
+    <state width="2517" height="496" key="GridCell.Tab.1.bottom/0.0.2560.1409@0.0.2560.1409" timestamp="1610312607464" />
+    <state width="2517" height="496" key="GridCell.Tab.1.center" timestamp="1610312607464">
+      <screen x="0" y="0" width="2560" height="1409" />
+    </state>
+    <state width="2517" height="496" key="GridCell.Tab.1.center/0.0.2560.1409@0.0.2560.1409" timestamp="1610312607464" />
+    <state width="2517" height="496" key="GridCell.Tab.1.left" timestamp="1610312607464">
+      <screen x="0" y="0" width="2560" height="1409" />
+    </state>
+    <state width="2517" height="496" key="GridCell.Tab.1.left/0.0.2560.1409@0.0.2560.1409" timestamp="1610312607464" />
+    <state width="2517" height="496" key="GridCell.Tab.1.right" timestamp="1610312607464">
+      <screen x="0" y="0" width="2560" height="1409" />
+    </state>
+    <state width="2517" height="496" key="GridCell.Tab.1.right/0.0.2560.1409@0.0.2560.1409" timestamp="1610312607464" />
+    <state x="567" y="237" key="SettingsEditor" timestamp="1610309536873">
+      <screen x="0" y="0" width="2560" height="1409" />
+    </state>
+    <state x="567" y="237" key="SettingsEditor/0.0.2560.1409@0.0.2560.1409" timestamp="1610309536873" />
+    <state x="567" y="237" key="SettingsEditor/3840.1080.1920.1034/0.0.2560.1409@0.0.2560.1409" timestamp="1610284767767" />
+    <state x="873" y="438" key="Vcs.Push.Dialog.v2" timestamp="1610137499343">
+      <screen x="0" y="0" width="2560" height="1409" />
+    </state>
+    <state x="873" y="438" key="Vcs.Push.Dialog.v2/3840.1080.1920.1034/0.0.2560.1409@0.0.2560.1409" timestamp="1610137499343" />
+    <state x="793" y="554" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1610292521179">
+      <screen x="0" y="0" width="2560" height="1409" />
+    </state>
+    <state x="793" y="554" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.2560.1409@0.0.2560.1409" timestamp="1610292521179" />
+    <state x="1072" y="619" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1610305957939">
+      <screen x="0" y="0" width="2560" height="1409" />
+    </state>
+    <state x="1072" y="619" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1409@0.0.2560.1409" timestamp="1610305957939" />
+    <state x="1052" y="534" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1610306417813">
+      <screen x="0" y="0" width="2560" height="1409" />
+    </state>
+    <state x="1052" y="534" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.2560.1409@0.0.2560.1409" timestamp="1610306417813" />
+    <state x="937" y="333" key="run.anything.popup" timestamp="1610303648097">
+      <screen x="0" y="0" width="2560" height="1409" />
+    </state>
+    <state x="937" y="333" key="run.anything.popup/0.0.2560.1409@0.0.2560.1409" timestamp="1610303648097" />
     <state x="937" y="333" key="run.anything.popup/3840.1080.1920.1034/0.0.2560.1409@0.0.2560.1409" timestamp="1610130146768" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/App.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/app/src/main/java/models/user/LogicUsers.java</url>
+          <line>124</line>
+          <properties class="models.user.LogicUsers" method="setUUID">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/app/src/main/java/models/user/LogicUsers.java</url>
+          <line>138</line>
+          <properties class="models.user.LogicUsers" method="checkUUID">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/app/src/main/java/BusinessLogic.java</url>
+          <line>36</line>
+          <properties class="BusinessLogic" method="user_show">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/app/src/main/java/BusinessLogic.java</url>
+          <line>32</line>
+          <properties class="BusinessLogic" method="user_add">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/app/src/main/java/models/LogicModels.java</url>
+          <line>18</line>
+          <properties class="models.LogicModels" method="create">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/app/src/main/java/models/LogicModels.java</url>
+          <line>20</line>
+          <properties class="models.LogicModels" method="read">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/app/src/main/java/models/LogicModels.java</url>
+          <line>22</line>
+          <properties class="models.LogicModels" method="update">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/app/src/main/java/models/LogicModels.java</url>
+          <line>24</line>
+          <properties class="models.LogicModels" method="delete">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

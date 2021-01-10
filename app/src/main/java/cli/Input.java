@@ -4,7 +4,7 @@
  * @since 1.8
  */
 
-package models;
+package cli;
 
-public class LogicActionsNeighbourhood {
+public class Input {
 }

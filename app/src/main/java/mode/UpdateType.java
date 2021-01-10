@@ -1,13 +1,18 @@
 package mode;
 
-public enum UpdateTypeUser {
+public enum UpdateType {
     USERNAME,
     PRENAME,
     SURNAME,
     BIRTHDATE,
+    E_MAIL_ADDRESS,
+
     STREET,
     HOUSE_NUMBER,
     POST_CODE,
     CITY,
-    COUNTRY
+    COUNTRY,
+
+    NAME,
+    ACTIVITY
 }

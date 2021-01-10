@@ -6,5 +6,5 @@
 
 package exceptions;
 
-public class UsernameNotFoundException extends StorableNotFoundException {
+public class ActionNotFoundException extends StorableNotFoundException {
 }

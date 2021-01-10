@@ -229,18 +229,6 @@
       </list>
     </option>
   </component>
-  <component name="libraryTable">
-    <library name="lib">
-      <CLASSES>
-        <root url="file://$PROJECT_DIR$/../models/lib" />
-      </CLASSES>
-      <JAVADOC />
-      <SOURCES>
-        <root url="file://$PROJECT_DIR$/../models/lib/src/main/java" />
-        <root url="file://$PROJECT_DIR$/../models/lib/src/test/java" />
-      </SOURCES>
-    </library>
-  </component>
   <component name="masterDetails">
     <states>
       <state key="ArtifactsStructureConfigurable.UI">
