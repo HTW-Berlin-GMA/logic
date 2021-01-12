@@ -19,10 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1beb4a76-90e5-45aa-8d9e-0fcde9da28be" name="Default Changelist" comment="added test">
-      <change beforePath="$PROJECT_DIR$/app/src/test/java/LogicTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/LogicTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logic.iws" beforeDir="false" afterPath="$PROJECT_DIR$/logic.iws" afterDir="false" />
-    </list>
+    <list default="true" id="1beb4a76-90e5-45aa-8d9e-0fcde9da28be" name="Default Changelist" comment="getStorage" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -284,7 +281,7 @@
       <workItem from="1610310144264" duration="3255000" />
       <workItem from="1610456408195" duration="13000" />
       <workItem from="1610456440226" duration="4000" />
-      <workItem from="1610456987832" duration="471000" />
+      <workItem from="1610456987832" duration="778000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1610137216694</created>
@@ -314,7 +311,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610314620413</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="getStorage">
+      <created>1610457749886</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1610457749886</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -337,7 +341,8 @@
     <MESSAGE value="init" />
     <MESSAGE value="updated UserUpdate | more options" />
     <MESSAGE value="added test" />
-    <option name="LAST_COMMIT_MESSAGE" value="added test" />
+    <MESSAGE value="getStorage" />
+    <option name="LAST_COMMIT_MESSAGE" value="getStorage" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -380,26 +385,31 @@
     </state>
     <state x="921" y="433" key="FileChooserDialogImpl/0.0.2560.1409@0.0.2560.1409" timestamp="1610309491354" />
     <state x="921" y="433" key="FileChooserDialogImpl/3840.1080.1920.1034/0.0.2560.1409@0.0.2560.1409" timestamp="1610284755489" />
-    <state x="1127" y="627" key="Github.Dialog.Accounts.Choose" timestamp="1610314603300">
+    <state x="1127" y="627" key="Github.Dialog.Accounts.Choose" timestamp="1610457761300">
       <screen x="0" y="0" width="2560" height="1409" />
     </state>
     <state x="1127" y="627" key="Github.Dialog.Accounts.Choose/0.0.2560.1409@0.0.2560.1409" timestamp="1610314603300" />
-    <state width="2517" height="496" key="GridCell.Tab.0.bottom" timestamp="1610314629018">
+    <state x="1127" y="627" key="Github.Dialog.Accounts.Choose/3840.1080.1920.1034/0.0.2560.1409@0.0.2560.1409" timestamp="1610457761300" />
+    <state width="2517" height="404" key="GridCell.Tab.0.bottom" timestamp="1610457480075">
       <screen x="0" y="0" width="2560" height="1409" />
     </state>
     <state width="2517" height="496" key="GridCell.Tab.0.bottom/0.0.2560.1409@0.0.2560.1409" timestamp="1610314629018" />
-    <state width="2517" height="496" key="GridCell.Tab.0.center" timestamp="1610314629018">
+    <state width="2517" height="404" key="GridCell.Tab.0.bottom/3840.1080.1920.1034/0.0.2560.1409@0.0.2560.1409" timestamp="1610457480075" />
+    <state width="2517" height="404" key="GridCell.Tab.0.center" timestamp="1610457480075">
       <screen x="0" y="0" width="2560" height="1409" />
     </state>
     <state width="2517" height="496" key="GridCell.Tab.0.center/0.0.2560.1409@0.0.2560.1409" timestamp="1610314629018" />
-    <state width="2517" height="496" key="GridCell.Tab.0.left" timestamp="1610314629018">
+    <state width="2517" height="404" key="GridCell.Tab.0.center/3840.1080.1920.1034/0.0.2560.1409@0.0.2560.1409" timestamp="1610457480075" />
+    <state width="2517" height="404" key="GridCell.Tab.0.left" timestamp="1610457480075">
       <screen x="0" y="0" width="2560" height="1409" />
     </state>
     <state width="2517" height="496" key="GridCell.Tab.0.left/0.0.2560.1409@0.0.2560.1409" timestamp="1610314629018" />
-    <state width="2517" height="496" key="GridCell.Tab.0.right" timestamp="1610314629018">
+    <state width="2517" height="404" key="GridCell.Tab.0.left/3840.1080.1920.1034/0.0.2560.1409@0.0.2560.1409" timestamp="1610457480075" />
+    <state width="2517" height="404" key="GridCell.Tab.0.right" timestamp="1610457480075">
       <screen x="0" y="0" width="2560" height="1409" />
     </state>
     <state width="2517" height="496" key="GridCell.Tab.0.right/0.0.2560.1409@0.0.2560.1409" timestamp="1610314629018" />
+    <state width="2517" height="404" key="GridCell.Tab.0.right/3840.1080.1920.1034/0.0.2560.1409@0.0.2560.1409" timestamp="1610457480075" />
     <state width="2517" height="496" key="GridCell.Tab.1.bottom" timestamp="1610314629019">
       <screen x="0" y="0" width="2560" height="1409" />
     </state>
@@ -421,11 +431,11 @@
     </state>
     <state x="567" y="237" key="SettingsEditor/0.0.2560.1409@0.0.2560.1409" timestamp="1610309536873" />
     <state x="567" y="237" key="SettingsEditor/3840.1080.1920.1034/0.0.2560.1409@0.0.2560.1409" timestamp="1610284767767" />
-    <state x="873" y="438" key="Vcs.Push.Dialog.v2" timestamp="1610314622144">
+    <state x="873" y="438" key="Vcs.Push.Dialog.v2" timestamp="1610457754554">
       <screen x="0" y="0" width="2560" height="1409" />
     </state>
     <state x="873" y="438" key="Vcs.Push.Dialog.v2/0.0.2560.1409@0.0.2560.1409" timestamp="1610314622144" />
-    <state x="873" y="438" key="Vcs.Push.Dialog.v2/3840.1080.1920.1034/0.0.2560.1409@0.0.2560.1409" timestamp="1610137499343" />
+    <state x="873" y="438" key="Vcs.Push.Dialog.v2/3840.1080.1920.1034/0.0.2560.1409@0.0.2560.1409" timestamp="1610457754554" />
     <state x="793" y="554" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1610292521179">
       <screen x="0" y="0" width="2560" height="1409" />
     </state>
