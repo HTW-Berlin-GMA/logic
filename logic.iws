@@ -19,31 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1beb4a76-90e5-45aa-8d9e-0fcde9da28be" name="Default Changelist" comment="updated UserUpdate | more options">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/cli/Input.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/cli/View.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/exceptions/ActionNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/exceptions/NotImplementsException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/exceptions/StorableNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/mode/Options.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/models/actions/LogicActionsNeighbourhood.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/models/actions/UpdateAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/test/java/LogicTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/test/java/models/LogicModelsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/BusinessLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/BusinessLogic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/exceptions/UsernameNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/exceptions/UsernameNotFoundException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/mode/UpdateTypeUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/mode/UpdateType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/models/LogicActionsFreedom.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/models/actions/LogicActionsFreedom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/models/LogicActionsNeighbourhood.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/cli/CLIText.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/models/LogicModels.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/models/LogicModels.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/models/LogicUsers.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/models/user/LogicUsers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/models/user/UpdateUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/models/user/UpdateUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/java/logic/AppTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logic.iml" beforeDir="false" afterPath="$PROJECT_DIR$/logic.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logic.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/logic.ipr" afterDir="false" />
+    <list default="true" id="1beb4a76-90e5-45aa-8d9e-0fcde9da28be" name="Default Changelist" comment="added test">
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/LogicTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/LogicTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logic.iws" beforeDir="false" afterPath="$PROJECT_DIR$/logic.iws" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -106,6 +83,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="f9fb75f5-9449-462d-b67a-61f8ec9ee0d0" />
   </component>
   <component name="ModuleEditorState">
     <option name="LAST_EDITED_MODULE_NAME" />
@@ -301,7 +281,10 @@
       <workItem from="1610296209673" duration="318000" />
       <workItem from="1610300967455" duration="6070000" />
       <workItem from="1610309472763" duration="639000" />
-      <workItem from="1610310144264" duration="3210000" />
+      <workItem from="1610310144264" duration="3255000" />
+      <workItem from="1610456408195" duration="13000" />
+      <workItem from="1610456440226" duration="4000" />
+      <workItem from="1610456987832" duration="471000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1610137216694</created>
@@ -317,7 +300,21 @@
       <option name="project" value="LOCAL" />
       <updated>1610137496425</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added test">
+      <created>1610314595768</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1610314595768</updated>
+    </task>
+    <task id="LOCAL-00004" summary="added test">
+      <created>1610314620413</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1610314620413</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -339,7 +336,8 @@
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
     <MESSAGE value="init" />
     <MESSAGE value="updated UserUpdate | more options" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated UserUpdate | more options" />
+    <MESSAGE value="added test" />
+    <option name="LAST_COMMIT_MESSAGE" value="added test" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -382,46 +380,51 @@
     </state>
     <state x="921" y="433" key="FileChooserDialogImpl/0.0.2560.1409@0.0.2560.1409" timestamp="1610309491354" />
     <state x="921" y="433" key="FileChooserDialogImpl/3840.1080.1920.1034/0.0.2560.1409@0.0.2560.1409" timestamp="1610284755489" />
-    <state width="2517" height="404" key="GridCell.Tab.0.bottom" timestamp="1610312737082">
+    <state x="1127" y="627" key="Github.Dialog.Accounts.Choose" timestamp="1610314603300">
       <screen x="0" y="0" width="2560" height="1409" />
     </state>
-    <state width="2517" height="404" key="GridCell.Tab.0.bottom/0.0.2560.1409@0.0.2560.1409" timestamp="1610312737082" />
-    <state width="2517" height="404" key="GridCell.Tab.0.center" timestamp="1610312737082">
+    <state x="1127" y="627" key="Github.Dialog.Accounts.Choose/0.0.2560.1409@0.0.2560.1409" timestamp="1610314603300" />
+    <state width="2517" height="496" key="GridCell.Tab.0.bottom" timestamp="1610314629018">
       <screen x="0" y="0" width="2560" height="1409" />
     </state>
-    <state width="2517" height="404" key="GridCell.Tab.0.center/0.0.2560.1409@0.0.2560.1409" timestamp="1610312737082" />
-    <state width="2517" height="404" key="GridCell.Tab.0.left" timestamp="1610312737082">
+    <state width="2517" height="496" key="GridCell.Tab.0.bottom/0.0.2560.1409@0.0.2560.1409" timestamp="1610314629018" />
+    <state width="2517" height="496" key="GridCell.Tab.0.center" timestamp="1610314629018">
       <screen x="0" y="0" width="2560" height="1409" />
     </state>
-    <state width="2517" height="404" key="GridCell.Tab.0.left/0.0.2560.1409@0.0.2560.1409" timestamp="1610312737082" />
-    <state width="2517" height="404" key="GridCell.Tab.0.right" timestamp="1610312737082">
+    <state width="2517" height="496" key="GridCell.Tab.0.center/0.0.2560.1409@0.0.2560.1409" timestamp="1610314629018" />
+    <state width="2517" height="496" key="GridCell.Tab.0.left" timestamp="1610314629018">
       <screen x="0" y="0" width="2560" height="1409" />
     </state>
-    <state width="2517" height="404" key="GridCell.Tab.0.right/0.0.2560.1409@0.0.2560.1409" timestamp="1610312737082" />
-    <state width="2517" height="496" key="GridCell.Tab.1.bottom" timestamp="1610312607464">
+    <state width="2517" height="496" key="GridCell.Tab.0.left/0.0.2560.1409@0.0.2560.1409" timestamp="1610314629018" />
+    <state width="2517" height="496" key="GridCell.Tab.0.right" timestamp="1610314629018">
       <screen x="0" y="0" width="2560" height="1409" />
     </state>
-    <state width="2517" height="496" key="GridCell.Tab.1.bottom/0.0.2560.1409@0.0.2560.1409" timestamp="1610312607464" />
-    <state width="2517" height="496" key="GridCell.Tab.1.center" timestamp="1610312607464">
+    <state width="2517" height="496" key="GridCell.Tab.0.right/0.0.2560.1409@0.0.2560.1409" timestamp="1610314629018" />
+    <state width="2517" height="496" key="GridCell.Tab.1.bottom" timestamp="1610314629019">
       <screen x="0" y="0" width="2560" height="1409" />
     </state>
-    <state width="2517" height="496" key="GridCell.Tab.1.center/0.0.2560.1409@0.0.2560.1409" timestamp="1610312607464" />
-    <state width="2517" height="496" key="GridCell.Tab.1.left" timestamp="1610312607464">
+    <state width="2517" height="496" key="GridCell.Tab.1.bottom/0.0.2560.1409@0.0.2560.1409" timestamp="1610314629019" />
+    <state width="2517" height="496" key="GridCell.Tab.1.center" timestamp="1610314629018">
       <screen x="0" y="0" width="2560" height="1409" />
     </state>
-    <state width="2517" height="496" key="GridCell.Tab.1.left/0.0.2560.1409@0.0.2560.1409" timestamp="1610312607464" />
-    <state width="2517" height="496" key="GridCell.Tab.1.right" timestamp="1610312607464">
+    <state width="2517" height="496" key="GridCell.Tab.1.center/0.0.2560.1409@0.0.2560.1409" timestamp="1610314629018" />
+    <state width="2517" height="496" key="GridCell.Tab.1.left" timestamp="1610314629018">
       <screen x="0" y="0" width="2560" height="1409" />
     </state>
-    <state width="2517" height="496" key="GridCell.Tab.1.right/0.0.2560.1409@0.0.2560.1409" timestamp="1610312607464" />
+    <state width="2517" height="496" key="GridCell.Tab.1.left/0.0.2560.1409@0.0.2560.1409" timestamp="1610314629018" />
+    <state width="2517" height="496" key="GridCell.Tab.1.right" timestamp="1610314629018">
+      <screen x="0" y="0" width="2560" height="1409" />
+    </state>
+    <state width="2517" height="496" key="GridCell.Tab.1.right/0.0.2560.1409@0.0.2560.1409" timestamp="1610314629018" />
     <state x="567" y="237" key="SettingsEditor" timestamp="1610309536873">
       <screen x="0" y="0" width="2560" height="1409" />
     </state>
     <state x="567" y="237" key="SettingsEditor/0.0.2560.1409@0.0.2560.1409" timestamp="1610309536873" />
     <state x="567" y="237" key="SettingsEditor/3840.1080.1920.1034/0.0.2560.1409@0.0.2560.1409" timestamp="1610284767767" />
-    <state x="873" y="438" key="Vcs.Push.Dialog.v2" timestamp="1610137499343">
+    <state x="873" y="438" key="Vcs.Push.Dialog.v2" timestamp="1610314622144">
       <screen x="0" y="0" width="2560" height="1409" />
     </state>
+    <state x="873" y="438" key="Vcs.Push.Dialog.v2/0.0.2560.1409@0.0.2560.1409" timestamp="1610314622144" />
     <state x="873" y="438" key="Vcs.Push.Dialog.v2/3840.1080.1920.1034/0.0.2560.1409@0.0.2560.1409" timestamp="1610137499343" />
     <state x="793" y="554" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1610292521179">
       <screen x="0" y="0" width="2560" height="1409" />
@@ -452,7 +455,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/app/src/main/java/models/user/LogicUsers.java</url>
           <line>124</line>
-          <properties class="models.user.LogicUsers" method="setUUID">
+          <properties class="models.user.LogicUsers">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="2" />
@@ -460,7 +463,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/app/src/main/java/models/user/LogicUsers.java</url>
           <line>138</line>
-          <properties class="models.user.LogicUsers" method="checkUUID">
+          <properties class="models.user.LogicUsers">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="3" />
@@ -468,7 +471,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/app/src/main/java/BusinessLogic.java</url>
           <line>36</line>
-          <properties class="BusinessLogic" method="user_show">
+          <properties class="BusinessLogic">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="4" />
@@ -476,7 +479,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/app/src/main/java/BusinessLogic.java</url>
           <line>32</line>
-          <properties class="BusinessLogic" method="user_add">
+          <properties class="BusinessLogic">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="5" />
@@ -484,7 +487,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/app/src/main/java/models/LogicModels.java</url>
           <line>18</line>
-          <properties class="models.LogicModels" method="create">
+          <properties class="models.LogicModels">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="6" />
@@ -492,7 +495,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/app/src/main/java/models/LogicModels.java</url>
           <line>20</line>
-          <properties class="models.LogicModels" method="read">
+          <properties class="models.LogicModels">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="7" />
@@ -500,7 +503,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/app/src/main/java/models/LogicModels.java</url>
           <line>22</line>
-          <properties class="models.LogicModels" method="update">
+          <properties class="models.LogicModels">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="8" />
@@ -508,7 +511,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/app/src/main/java/models/LogicModels.java</url>
           <line>24</line>
-          <properties class="models.LogicModels" method="delete">
+          <properties class="models.LogicModels">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="9" />

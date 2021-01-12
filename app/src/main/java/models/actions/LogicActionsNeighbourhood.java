@@ -87,7 +87,7 @@ public class LogicActionsNeighbourhood implements LogicModels {
 
     @Override
     public Storage getStorage() {
-        return null;
+        return this.storage;
     }
 
     private UUID setUUID() {

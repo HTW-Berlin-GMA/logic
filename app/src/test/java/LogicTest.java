@@ -45,10 +45,10 @@ class LogicTest {
     void good_create_user_in_storage() {
         // SET-UP //
         String username = "dokriseum";
-        UUID uuid = this.bl.user_add(username);
+        UUID uuid = this.bl.getLogicUsers().create(username);
         // TEST //
         try {
-            Assertions.assertTrue(this.bl.user_show(uuid).getUsername().equals(username));
+            Assertions.assertTrue(((User) this.bl.getLogicUsers().read(uuid)).getUsername().equals(username));
         } catch (StorableNotFoundException e) {
             e.printStackTrace();
         }
