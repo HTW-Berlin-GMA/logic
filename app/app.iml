@@ -92,7 +92,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://E:/Workspace/intellij-workspace/#GMA/GuysMeetsActions/lib/models.jar!/"/>
+          <root url="jar://E:/Workspace/projects-workspace/ai-gma/GuysMeetsActions/lib/models.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES/>

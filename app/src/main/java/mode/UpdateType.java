@@ -14,5 +14,8 @@ public enum UpdateType {
     COUNTRY,
 
     NAME,
-    ACTIVITY
+    ACTIVITY,
+    MAX_PARTICIPANTS,
+    ACTUALLY_PARTICIPANTS,
+    FINISHED_STATUS
 }

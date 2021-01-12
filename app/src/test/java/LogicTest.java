@@ -1,6 +1,6 @@
 import data.storable.user.User;
 import exceptions.StorableNotFoundException;
-import exceptions.UsernameNotFoundException;
+import exceptions.UserNotFoundException;
 import models.user.LogicUsers;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Assertions;
@@ -61,7 +61,7 @@ class LogicTest {
         User tempTestUser = null;
         try {
             tempTestUser = ((LogicUsers) this.bl.getLogicUsers()).show("dokriseum");
-        } catch (UsernameNotFoundException e) {
+        } catch (UserNotFoundException e) {
             e.printStackTrace();
             Assertions.fail();
         }

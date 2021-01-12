@@ -6,7 +6,6 @@
 
 package models.actions;
 
-import data.storable.Storable;
 import data.storable.actions.Actions;
 import data.storable.actions.ActionsNeighbourhoodImpl;
 import data.storage.Storage;
@@ -31,43 +30,36 @@ public class LogicActionsNeighbourhood implements LogicModels {
 
     public UUID create(String name) {
         Actions action = new ActionsNeighbourhoodImpl(name, this.setUUID());
-        this.storage.getList().add(action);
-        return this.storage.getList().get(this.storage.getList().indexOf(action)).getID();
+        this.storage.getMap().put(action.getID(), action);
+        return action.getID();
     }
 
     public Actions read(UUID uuid) throws ActionNotFoundException {
-        for (Storable k : this.storage.getList()) {
-            if (k.getID().equals(uuid)) {
-                this.storage.getList().remove(k);
-                return (Actions) k;
-            }
-        }
-        throw new ActionNotFoundException();
+        return (Actions) this.storage.getMap().get(uuid);
     }
 
     public boolean update(UUID uuid, UpdateType update_type, String value) throws ActionNotFoundException {
-        int actionID = this.searchAction(uuid);
         switch (update_type) {
             case NAME:
-                (new UpdateAction(this.storage)).updateName(actionID, value);
+                (new UpdateAction(this.storage)).updateName(uuid, value);
                 break;
             case STREET:
-                (new UpdateAction(this.storage)).updateStreet(actionID, value);
+                (new UpdateAction(this.storage)).updateStreet(uuid, value);
                 break;
             case HOUSE_NUMBER:
-                (new UpdateAction(this.storage)).updateHouseNumber(actionID, value);
+                (new UpdateAction(this.storage)).updateHouseNumber(uuid, value);
                 break;
             case POST_CODE:
-                (new UpdateAction(this.storage)).updatePostCode(actionID, value);
+                (new UpdateAction(this.storage)).updatePostCode(uuid, value);
                 break;
             case CITY:
-                (new UpdateAction(this.storage)).updateCity(actionID, value);
+                (new UpdateAction(this.storage)).updateCity(uuid, value);
                 break;
             case COUNTRY:
-                (new UpdateAction(this.storage)).updateCountry(actionID, value);
+                (new UpdateAction(this.storage)).updateCountry(uuid, value);
                 break;
             case ACTIVITY:
-                (new UpdateAction(this.storage)).updateActivity(actionID, value);
+                (new UpdateAction(this.storage)).updateActivity(uuid, value);
                 break;
             default:
                 throw new IllegalArgumentException();
@@ -76,13 +68,12 @@ public class LogicActionsNeighbourhood implements LogicModels {
     }
 
     public boolean delete(UUID uuid) throws ActionNotFoundException {
-        for (Storable k : this.storage.getList()) {
-            if (k.getID().equals(uuid)) {
-                this.storage.getList().remove(k);
-                return true;
-            }
+
+        if (this.storage.getMap().remove(uuid) == null) {
+            throw new ActionNotFoundException("wrong uuid");
+        } else {
+            return true;
         }
-        throw new ActionNotFoundException();
     }
 
     @Override
@@ -92,34 +83,10 @@ public class LogicActionsNeighbourhood implements LogicModels {
 
     private UUID setUUID() {
         UUID uuid = UUID.randomUUID();
-        if (this.checkUUID(uuid) == true) {
+        if (this.storage.getMap().containsKey(uuid) != true) {
             return uuid;
         } else {
-            return this.setUUID();
+            return null;
         }
-    }
-
-    private boolean checkUUID(UUID uuid) {
-        boolean isAvailable = true;
-        for (Storable k : this.storage.getList()) {
-            if (k.getID().equals(uuid)) {
-                isAvailable = false;
-                return isAvailable;
-            }
-        }
-        return isAvailable;
-    }
-
-    private Integer searchAction(UUID uuid) throws ActionNotFoundException {
-        int id = 0;
-        for (Storable k : this.storage.getList()) {
-            if (k.getID().equals(uuid)) {
-                this.storage.getList().remove(k);
-                return id;
-            } else {
-                id++;
-            }
-        }
-        throw new ActionNotFoundException();
     }
 }

@@ -19,7 +19,38 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1beb4a76-90e5-45aa-8d9e-0fcde9da28be" name="Default Changelist" comment="getStorage" />
+    <list default="true" id="1beb4a76-90e5-45aa-8d9e-0fcde9da28be" name="Default Changelist" comment="login">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/exceptions/ContactlistIsUnavailableException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/exceptions/ContactlistIsUsedException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/exceptions/FavoritesIsExistException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/exceptions/FavoritesIsUnavailableException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/exceptions/InterestIsExistException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/exceptions/InterestIsUnavailableException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/mode/UpdateTypeListsOfUsers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/models/user/UserContacts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/models/user/UserFavorites.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/models/user/UserInterests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/exceptions/ActionNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/exceptions/ActionNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/exceptions/UsernameNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/exceptions/UserNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/mode/UpdateType.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/mode/UpdateType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/models/actions/LogicActionsFreedom.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/models/actions/LogicActionsFreedom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/models/actions/LogicActionsNeighbourhood.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/models/actions/LogicActionsNeighbourhood.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/models/actions/UpdateAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/models/actions/UpdateAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/models/user/LogicUsers.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/models/user/LogicUsers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/models/user/UpdateUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/models/user/UpdateUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/LogicTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/LogicTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logic.iws" beforeDir="false" afterPath="$PROJECT_DIR$/logic.iws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/app/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/app/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/app/exceptions/UsernameNotFoundException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/app/models/actions/LogicActionsFreedom.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/app/models/actions/LogicActionsFreedom.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/app/models/actions/LogicActionsNeighbourhood.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/app/models/actions/LogicActionsNeighbourhood.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/app/models/user/LogicUsers$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/app/models/user/LogicUsers$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/app/models/user/LogicUsers.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/app/models/user/LogicUsers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/app/models/user/UpdateUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/app/models/user/UpdateUser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/app/LogicTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/app/LogicTest.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -72,9 +103,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Enum" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -123,7 +154,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../models/out/artifacts/models_jar/models.jar!/" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.14160156" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="settings.saveactions" />
@@ -136,13 +167,15 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="exceptions" />
+      <recent name="models.user" />
+      <recent name="functions.users" />
       <recent name="mode" />
       <recent name="logic.events.input.commands" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Workspace\intellij-workspace\#GMA\GuysMeetsActions\logic\app\src\main\java\logic\events\user" />
@@ -282,6 +315,14 @@
       <workItem from="1610456408195" duration="13000" />
       <workItem from="1610456440226" duration="4000" />
       <workItem from="1610456987832" duration="778000" />
+      <workItem from="1610458034824" duration="898000" />
+      <workItem from="1610459616037" duration="600000" />
+      <workItem from="1610462298464" duration="60000" />
+      <workItem from="1610462375553" duration="29000" />
+      <workItem from="1610462421097" duration="2000" />
+      <workItem from="1610462444143" duration="29000" />
+      <workItem from="1610462900075" duration="18000" />
+      <workItem from="1610464407558" duration="7295000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1610137216694</created>
@@ -318,7 +359,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610457749886</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="login">
+      <created>1610458223137</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1610458223138</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -342,15 +390,16 @@
     <MESSAGE value="updated UserUpdate | more options" />
     <MESSAGE value="added test" />
     <MESSAGE value="getStorage" />
-    <option name="LAST_COMMIT_MESSAGE" value="getStorage" />
+    <MESSAGE value="login" />
+    <option name="LAST_COMMIT_MESSAGE" value="login" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="946" y="394" key="#com.intellij.ide.util.MemberChooser" timestamp="1610305354799">
+    <state x="946" y="394" key="#com.intellij.ide.util.MemberChooser" timestamp="1610467113348">
       <screen x="0" y="0" width="2560" height="1409" />
     </state>
     <state x="946" y="394" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1409@0.0.2560.1409" timestamp="1610305354799" />
-    <state x="946" y="394" key="#com.intellij.ide.util.MemberChooser/3840.1080.1920.1034/0.0.2560.1409@0.0.2560.1409" timestamp="1610282975887" />
+    <state x="946" y="394" key="#com.intellij.ide.util.MemberChooser/3840.1080.1920.1034/0.0.2560.1409@0.0.2560.1409" timestamp="1610467113348" />
     <state x="824" y="629" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1610136049717">
       <screen x="0" y="0" width="2560" height="1409" />
     </state>
@@ -385,31 +434,31 @@
     </state>
     <state x="921" y="433" key="FileChooserDialogImpl/0.0.2560.1409@0.0.2560.1409" timestamp="1610309491354" />
     <state x="921" y="433" key="FileChooserDialogImpl/3840.1080.1920.1034/0.0.2560.1409@0.0.2560.1409" timestamp="1610284755489" />
-    <state x="1127" y="627" key="Github.Dialog.Accounts.Choose" timestamp="1610457761300">
+    <state x="1127" y="627" key="Github.Dialog.Accounts.Choose" timestamp="1610458232627">
       <screen x="0" y="0" width="2560" height="1409" />
     </state>
     <state x="1127" y="627" key="Github.Dialog.Accounts.Choose/0.0.2560.1409@0.0.2560.1409" timestamp="1610314603300" />
-    <state x="1127" y="627" key="Github.Dialog.Accounts.Choose/3840.1080.1920.1034/0.0.2560.1409@0.0.2560.1409" timestamp="1610457761300" />
-    <state width="2517" height="404" key="GridCell.Tab.0.bottom" timestamp="1610457480075">
+    <state x="1127" y="627" key="Github.Dialog.Accounts.Choose/3840.1080.1920.1034/0.0.2560.1409@0.0.2560.1409" timestamp="1610458232627" />
+    <state width="2517" height="404" key="GridCell.Tab.0.bottom" timestamp="1610466188084">
       <screen x="0" y="0" width="2560" height="1409" />
     </state>
     <state width="2517" height="496" key="GridCell.Tab.0.bottom/0.0.2560.1409@0.0.2560.1409" timestamp="1610314629018" />
-    <state width="2517" height="404" key="GridCell.Tab.0.bottom/3840.1080.1920.1034/0.0.2560.1409@0.0.2560.1409" timestamp="1610457480075" />
-    <state width="2517" height="404" key="GridCell.Tab.0.center" timestamp="1610457480075">
+    <state width="2517" height="404" key="GridCell.Tab.0.bottom/3840.1080.1920.1034/0.0.2560.1409@0.0.2560.1409" timestamp="1610466188084" />
+    <state width="2517" height="404" key="GridCell.Tab.0.center" timestamp="1610466188084">
       <screen x="0" y="0" width="2560" height="1409" />
     </state>
     <state width="2517" height="496" key="GridCell.Tab.0.center/0.0.2560.1409@0.0.2560.1409" timestamp="1610314629018" />
-    <state width="2517" height="404" key="GridCell.Tab.0.center/3840.1080.1920.1034/0.0.2560.1409@0.0.2560.1409" timestamp="1610457480075" />
-    <state width="2517" height="404" key="GridCell.Tab.0.left" timestamp="1610457480075">
+    <state width="2517" height="404" key="GridCell.Tab.0.center/3840.1080.1920.1034/0.0.2560.1409@0.0.2560.1409" timestamp="1610466188084" />
+    <state width="2517" height="404" key="GridCell.Tab.0.left" timestamp="1610466188084">
       <screen x="0" y="0" width="2560" height="1409" />
     </state>
     <state width="2517" height="496" key="GridCell.Tab.0.left/0.0.2560.1409@0.0.2560.1409" timestamp="1610314629018" />
-    <state width="2517" height="404" key="GridCell.Tab.0.left/3840.1080.1920.1034/0.0.2560.1409@0.0.2560.1409" timestamp="1610457480075" />
-    <state width="2517" height="404" key="GridCell.Tab.0.right" timestamp="1610457480075">
+    <state width="2517" height="404" key="GridCell.Tab.0.left/3840.1080.1920.1034/0.0.2560.1409@0.0.2560.1409" timestamp="1610466188084" />
+    <state width="2517" height="404" key="GridCell.Tab.0.right" timestamp="1610466188084">
       <screen x="0" y="0" width="2560" height="1409" />
     </state>
     <state width="2517" height="496" key="GridCell.Tab.0.right/0.0.2560.1409@0.0.2560.1409" timestamp="1610314629018" />
-    <state width="2517" height="404" key="GridCell.Tab.0.right/3840.1080.1920.1034/0.0.2560.1409@0.0.2560.1409" timestamp="1610457480075" />
+    <state width="2517" height="404" key="GridCell.Tab.0.right/3840.1080.1920.1034/0.0.2560.1409@0.0.2560.1409" timestamp="1610466188084" />
     <state width="2517" height="496" key="GridCell.Tab.1.bottom" timestamp="1610314629019">
       <screen x="0" y="0" width="2560" height="1409" />
     </state>
@@ -426,16 +475,16 @@
       <screen x="0" y="0" width="2560" height="1409" />
     </state>
     <state width="2517" height="496" key="GridCell.Tab.1.right/0.0.2560.1409@0.0.2560.1409" timestamp="1610314629018" />
-    <state x="567" y="237" key="SettingsEditor" timestamp="1610309536873">
+    <state x="567" y="237" key="SettingsEditor" timestamp="1610464547961">
       <screen x="0" y="0" width="2560" height="1409" />
     </state>
     <state x="567" y="237" key="SettingsEditor/0.0.2560.1409@0.0.2560.1409" timestamp="1610309536873" />
-    <state x="567" y="237" key="SettingsEditor/3840.1080.1920.1034/0.0.2560.1409@0.0.2560.1409" timestamp="1610284767767" />
-    <state x="873" y="438" key="Vcs.Push.Dialog.v2" timestamp="1610457754554">
+    <state x="567" y="237" key="SettingsEditor/3840.1080.1920.1034/0.0.2560.1409@0.0.2560.1409" timestamp="1610464547961" />
+    <state x="873" y="438" key="Vcs.Push.Dialog.v2" timestamp="1610458224944">
       <screen x="0" y="0" width="2560" height="1409" />
     </state>
     <state x="873" y="438" key="Vcs.Push.Dialog.v2/0.0.2560.1409@0.0.2560.1409" timestamp="1610314622144" />
-    <state x="873" y="438" key="Vcs.Push.Dialog.v2/3840.1080.1920.1034/0.0.2560.1409@0.0.2560.1409" timestamp="1610457754554" />
+    <state x="873" y="438" key="Vcs.Push.Dialog.v2/3840.1080.1920.1034/0.0.2560.1409@0.0.2560.1409" timestamp="1610458224944" />
     <state x="793" y="554" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1610292521179">
       <screen x="0" y="0" width="2560" height="1409" />
     </state>
@@ -448,35 +497,27 @@
       <screen x="0" y="0" width="2560" height="1409" />
     </state>
     <state x="1052" y="534" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.2560.1409@0.0.2560.1409" timestamp="1610306417813" />
-    <state x="937" y="333" key="run.anything.popup" timestamp="1610303648097">
+    <state x="937" y="333" key="run.anything.popup" timestamp="1610470154747">
       <screen x="0" y="0" width="2560" height="1409" />
     </state>
     <state x="937" y="333" key="run.anything.popup/0.0.2560.1409@0.0.2560.1409" timestamp="1610303648097" />
-    <state x="937" y="333" key="run.anything.popup/3840.1080.1920.1034/0.0.2560.1409@0.0.2560.1409" timestamp="1610130146768" />
+    <state x="937" y="333" key="run.anything.popup/3840.1080.1920.1034/0.0.2560.1409@0.0.2560.1409" timestamp="1610470154747" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/App.java</url>
-          <line>12</line>
+          <line>17</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/app/src/main/java/models/user/LogicUsers.java</url>
-          <line>124</line>
-          <properties class="models.user.LogicUsers">
+          <line>115</line>
+          <properties class="models.user.LogicUsers" method="setUUID">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/app/src/main/java/models/user/LogicUsers.java</url>
-          <line>138</line>
-          <properties class="models.user.LogicUsers">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/app/src/main/java/BusinessLogic.java</url>
